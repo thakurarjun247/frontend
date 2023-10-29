@@ -1,0 +1,48 @@
+/* Reset some default styles for the page */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Style the side navigation bar */
+.sidenav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+
+.sidenav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidenav li {
+    padding: 10px 20px;
+}
+
+.sidenav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Style the main content area */
+.main-content {
+    margin-left: 20%;
+    padding: 20px;
+}
+
+/* Add some styles to the main content text (optional) */
+.main-content p {
+    font-size: 18px;
+}

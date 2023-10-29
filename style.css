@@ -46,7 +46,7 @@ header {
   }
 
 .header-list{
-    display: flex;
+    display:flex;
     justify-content: space-around;
     padding-top: 0;
     /* margin-left:50px; */
@@ -56,7 +56,7 @@ header {
 .header-list li{
     margin: 0;
     height: 50px;
-    width: 50px;
+    width: auto;
     display: flex;
     align-items: center;
 }
@@ -402,3 +402,6 @@ ul {
 .fa-searchs{
     visibility: hidden;
 }
+.header-list .orange a {
+    color: orange;
+  }
