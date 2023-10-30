@@ -17,12 +17,16 @@ body {
 
 /* The navigation menu links */
 .sidenav a {
-  padding: 8px 8px 8px 32px;
+  padding: 8px 8px 8px 16px;
   text-decoration: none;
   font-size: 17px;
   color: black;
   display: block;
   transition: 0.3s;
+
+  @media screen and (max-width: 1000px) {
+    padding: 8px 8px 8px 8px;
+  }
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -89,8 +93,8 @@ body:has(#menu-toggle:checked) #mySidenav {
 }
 .sidenav {
   /* Existing styles */
-  width: 16%; /* Initial width */
-  min-width: 16%; /* Minimum width to prevent shrinking below 50% */
+  width: 18%; /* Initial width */
+  min-width: 18%; /* Minimum width to prevent shrinking below 50% */
   position: fixed; /* Stay in place */
   z-index: 1; /* Stay on top */
   top: 10px; /* Stay at the top */
@@ -104,7 +108,7 @@ body:has(#menu-toggle:checked) #mySidenav {
   text-align: left;
   
   @media screen and (max-width: 1000px) {
-      width: 25%; /* Adjust the width for screens with a width of 1000px or less */
+      width: 26%; /* Adjust the width for screens with a width of 1000px or less */
   }
 }
 
@@ -113,11 +117,11 @@ body:has(#menu-toggle:checked) #mySidenav {
 .main {
   padding-top: 1px;
   padding-left: 15px;
-  width: 84%;
+  width: 82%;
   float: right;
   
   @media screen and (max-width: 1000px) {
-    width: 75%;
+    width: 74%;
       margin-left: calc(25% + 15px); /* Adjusted margin for screens with a width of 1000px or less */
   }
 }
