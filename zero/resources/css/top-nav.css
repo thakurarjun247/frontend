@@ -1,10 +1,10 @@
-nav{
+nav {
     display: flex;
-    padding: 1.5% 6%; 
+    padding: 1.5% 6%;
     /* arg controls the height bar */
     /* padding: 1% 6%;: This sets padding for the nav element. It applies 1% of the width of the parent container to the top and bottom, and 6% of the width to the left and right. The percentage-based padding can make the navigation bar responsive, adapting to different screen sizes. */
-   
-    height:1px;
+
+    height: 1px;
     /* height: 1px;: This sets the height of the nav element to 1 pixel. This would typically make the navigation bar extremely thin, almost invisible. In most cases, you'd want to set the height to a more substantial value to create a visible navigation bar. */
     justify-content: space-around;
     align-items: center;
@@ -12,21 +12,17 @@ nav{
     font-size: 12px;
 }
 
-
-
-
-
 /*settings for the container that contains all the list items*/
 .top-nav-bar {
-    flex:content;
-    
+    flex: content;
+
     text-align: center;
     height: 20px;
     align-items: left;
     /* background-color: white;  */
 }
 
-  
+
 
 /*settings for the individual container that contains a list item*/
 
@@ -37,25 +33,27 @@ nav{
     position: relative;
     margin-left: 1%;
     /* background-color: red; */
-} 
-.top-nav-bar ul li:hover {
-   
-    background-color: darkgrey;
-} 
-/* logo image */
-.top-nav-bar ul img {
-    width: 9px;
-    height: auto;
-   margin-right: 5px;
-   padding-top: 1 px;
 }
 
 /* text of individual list item */
-.top-nav-bar ul li a{
+.top-nav-bar ul li a {
     color: white;
     /* background-color: blue; */
     text-decoration: none;
     font-size: 13;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+.top-nav-bar ul li a:hover {
+
+    /* background-color: darkgrey; */
+     color: gold; 
+}
+
+/* logo image */
+.top-nav-bar ul img {
+    width: 9px;
+    height: auto;
+    margin-right: 5px;
+    padding-top: 1 px;
+}
