@@ -18,12 +18,12 @@ nav {
     align-items: center;
     background-color: black;
     font-size: 18px;
-    
+
 }
 
 /*settings for the container that contains all the list items*/
 .top-nav-bar {
-    flex:content;
+    flex: content;
 
     text-align: right;
     height: 30px;
@@ -49,7 +49,7 @@ nav {
     color: white;
     /* background-color: blue; */
     text-decoration: none;
-    font-size: 15px;
+    font-size: 12px;
     /* font-family: Arial, Helvetica, sans-serif; */
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -57,7 +57,7 @@ nav {
 .top-nav-bar ul li a:hover {
 
     /* background-color: darkgrey; */
-     color: gold; 
+    color: gold;
 }
 
 /* logo image */
@@ -68,8 +68,44 @@ nav {
     padding-top: 1 px;
 }
 
+
+.tech-pro-school {
+    color: orange;
+    text-decoration: none;
+
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    height: auto;
+    text-align: right;
+    align-items: center;
+    margin: 0px;
+
+}
+
+nav img {
+
+    width: 25px;
+    height: auto;
+    margin: 10px;
+    padding: 5px;
+    padding-left: 0px;
+    /* margin-right: 10px; */
+
+
+
+}
+
+/* hide the small screen nav open close icons in full screen mode */
+nav .fa-xmark {
+    display: none;
+}
+
+nav .fa-bars {
+    display: none;
+}
+
 /* responsive */
-@media(max-width:700px){
+@media(max-width:700px) {
     .top-nav-bar {
         position: absolute;
         background: black;
@@ -79,34 +115,20 @@ nav {
         right: 0;
         text-align: left;
         z-index: 2;
-    } 
-    .top-nav-bar ul li{
+    }
 
-        display: block ;
+    .top-nav-bar ul li {
+
+        display: block;
 
     }
-}
-
-.tech-pro-school{
-    color: orange;
-    text-decoration: none;
-   
-       font-weight: bolder;
-       font-family: Arial, Helvetica, sans-serif;
-       height: auto;
-       text-align: right;
-       align-items: center;
-       margin: 0px;
-
-}
-nav img{
-    width: 25px;
-    height: auto;
-    margin:10px;
-    padding: 5px;
-    padding-left: 0px;
-    /* margin-right: 10px; */
+    nav .fa-xmark {
+        display:block;
+        color: red;
+    }
     
-    
-    
+    nav .fa-bars {
+        display: block;
+        color:red;
+    }
 }
