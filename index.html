@@ -7,6 +7,7 @@
          Placing it there ensures that the CSS is loaded early in the rendering process, which can help prevent flash of unstyled content (FOUC) and improve the overall user experience. -->
     <link rel="stylesheet" href="resources/css/index.css">
     <link rel="stylesheet" href="resources/css/top-nav.css">
+    <link rel="stylesheet" href="resources/css/tile.css">
 
     <script src="https://kit.fontawesome.com/a4baa87545.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"></script>
@@ -15,6 +16,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TechProSchool | Corporate Technical Trainings | Crack FAANG Interviews | Video Tutorials | Arjun Thakur
     </title>
+
+    <style>
+      
+    </style>
 
 </head>
 
@@ -44,7 +49,6 @@
                     </li>
                     <li><a href="https://www.apple.com/tv/">About Us</a></li>
                     <li><a href="https://www.apple.com/music/">Contact Us</a></li>
-                    <li><a href="https://www.apple.com/music/">Careers </a></li>
                     <li><a href="https://support.apple.com/">Login</a>
                     </li>
 
@@ -56,16 +60,25 @@
         </nav>
     </section>
 
+    <!-- todo
+    create a new section, it should have a flexbox with two colums in deskop mode and single column in mobile view, 
+    it should be responsive, the background of the entire section should be blue and individual column item should have grey backgroud. they should be 80% wide, and have hover effect. 
+ -->
+ <section class="flex-container">
+    <div class="flex-item">
+        <div class="item-content">
+            <h1>experience awesomenesss</h1>
+            <p>there you go. once agains.</p>
+        </div>
+    </div>
+    <div class="flex-item">
+        <div class="item-content">
+            <h1>experience awesomenesss</h1>
+            <p>there you go. once agains.</p>
+        </div>
+    </div>
+</section>
 
-    <!-- <script>
-        var navlinks=document.getElementById("navlinks");
-        function showMenu(){
-            navlinks.style.right="0";
-        }
-        function hideMenu(){
-            navlinks.style.right="-250px";
-        }
-    </script> -->
 
     <script src="resources/js/top-nav.js"></script>
 
