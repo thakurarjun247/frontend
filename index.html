@@ -1,221 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
+    <!-- To include external CSS in an HTML document for faster loading, 
+        it's generally recommended to include it in the <head> section of your HTML document.
+         Placing it there ensures that the CSS is loaded early in the rendering process, which can help prevent flash of unstyled content (FOUC) and improve the overall user experience. -->
+    <link rel="stylesheet" href="resources/css/index.css">
+    <link rel="stylesheet" href="resources/css/top-nav.css">
+
+    <script src="https://kit.fontawesome.com/a4baa87545.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"></script>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechProSchool | Corporate Technical Trainings | Crack FAANG Interviews | Video Tutorials | Arjun Thakur </title>
-    <script src="highlight-nav.min.js"></script>
+    <title>TechProSchool | Corporate Technical Trainings | Crack FAANG Interviews | Video Tutorials | Arjun Thakur
+    </title>
 
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href=" css/responsive.css">
-    <!-- <link rel="stylesheet" href="reset.css"> buat reset css -->
-    <link rel="shortcut icon" type="image/jpg" href="img/apple-logo.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
-        crossorigin="anonymous" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-   
-      
-    <!-- Bagian header-->
-    <header>
-        <div class="header-wrapper">
-            <span class="menu-logo hp-viewport fas fa-ellipsis-h"></span>
-            <ul class="header-list">
 
+    <section>
+        <nav>
+            <div class="logo"><img src="resources/images/apple-logo.png" alt=""></div>
+            <!-- <a class="tech-pro-school" href="index.html">TechProSchool</a> -->
 
-                <li class="orange header-content hp-viewport-hide "><a
-                        href="index.html">TechProSchool</a></li>
-                <li class="header-content hp-viewport-hide"><a href="https://www.apple.com/ipad/">Master FAANG
-                        Interviews</a></li>
-                <li class="header-content hp-viewport-hide"><a href="corporate-technical-trainings.html">Corporate Technical
-                        Trainings</a></li>
-                <li class="header-content hp-viewport-hide"><a href="https://www.apple.com/watch/">Video Tutorials</a>
-                </li>
-                <li class="header-content hp-viewport-hide"><a href="https://www.apple.com/tv/">About Us</a></li>
-                <li class="header-content hp-viewport-hide"><a href="https://www.apple.com/music/">Contact Us</a></li>
-                <li class="header-content hp-viewport-hide"><a href="https://support.apple.com/">Login / Sign-Up</a>
-                </li>
+            <div class="top-nav-bar" id="navlinks">
+ 
+                <!-- <i class="fa-regular fa-rectangle-xmark " style="color: #f90606;" ></i> -->
+                <i class="fa-solid fa-xmark" onclick="hideMenu()" ></i>
 
-            </ul>
-        </div>
-    </header>
-
-
-    <main>
-
-        <div class="container">
-            <div class="contents">
-                <div class="image-container" onclick="location.href='/crack-faang-interviews/more.html';"
-                    style="cursor: pointer;">
-                    <div class="iphone-12">
-                        <div class="title">
-                            <h1>Crack Your Next FAANG Interview!</h1>
-                            <p>Learn from the professionals who have been on the other side of the interview table @ FAANG</p>
-    
-                        <p> Live 1:1 Training Sessions | Mock interviews</p>
-                       Learn System Design, Data Structures & Algorithms, HLD, LLD and more...
-                            
-                        </div>
-                        <div class="cta-links">
-                            <a href="#" class="learn-more-link">Learn more ></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="image-container" onclick="location.href='https://www.apple.com/iphone-12-pro/';"
-                    style="cursor: pointer;">
-                    <div class="iphone-12-pro">
-                        <div class="title">
-                            <h1>Corporate Technical Trainings</h1>
-                            <p>It's a leap year.</p>
-                        </div>
-                        <div class="cta-links">
-                            <a href="#" class="learn-more-link">Learn more ></a>
-                            <a href="#" class="buy-link">Buy ></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="image-container" onclick="location.href='https://www.apple.com/iphone-12/';"
-                    style="cursor: pointer;">
-                    <div class="iphone-12">
-                        <div class="title">
-                            <h1>iPhone 12</h1>
-                            <p>Blast past fast.</p>
-                        </div>
-                        <div class="cta-links">
-                            <a href="#" class="learn-more-link">Learn more ></a>
-                            <a href="#" class="buy-link">Buy ></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="image-container" onclick="location.href='https://www.apple.com/iphone-12-pro/';"
-                    style="cursor: pointer;">
-                    <div class="iphone-12-pro">
-                        <div class="title">
-                            <h1>iPhone 12 Pro</h1>
-                            <p>It's a leap year.</p>
-                        </div>
-                        <div class="cta-links">
-                            <a href="#" class="learn-more-link">Learn more ></a>
-                            <a href="#" class="buy-link">Buy ></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        </div>
-
-
-    </main>
-
-    <!-- Bagian footer-->
-    <footer>
-        <div class="footer-container">
-            <div class="foot-notes">
                 <ul>
-                    <li>
-                        1. Price includes a $30 AT&T, T-Mobile, Sprint, or Verizon discount. Requires activation with
-                        carrier. Monthly pricing: Available to qualified customers and requires 0% APR.
+                    <!-- uncomment below once logo is ready -->
+                    <!-- <li><a class="tech-pro-school" href="index.html" ><img src="resources/images/apple-logo.png" alt="">TechProSchool</a></li> -->
+                    <!-- <li><a class="tech-pro-school" href="index.html" >TechProSchool</a></li> -->
+
+                    <li><a href=""> Master FAANG
+                            Interviews</a></li>
+
+                    <li><a href="corporate-technical-trainings.html">Corporate Technical
+                            Trainings</a></li>
+                    <li><a href="https://www.apple.com/watch/">Courses</a>
+                    </li>
+                    <li><a href="https://www.apple.com/tv/">About Us</a></li>
+                    <li><a href="https://www.apple.com/music/">Contact Us</a></li>
+                    <li><a href="https://www.apple.com/music/">Careers </a></li>
+                    <li><a href="https://support.apple.com/">Login</a>
                     </li>
 
-                    <li>
-                        2. Monthly pricing: Available to qualified customers and requires 0% APR, 24-month installment
-                        loan with Citizens One or Apple Card Monthly Installments.
-                    </li>
-
-                    <li>
-                        3. $9.99/month after free trial. No commitment. Plan automatically renews after trial until
-                        cancelled.
-                    </li>
-
-                    <li>
-                        4. The Apple One free trial includes only services that you are not currently using through a
-                        free trial or a subscription.
-                    <li>
-
-                    <li>
-                        To access and use all the features of Apple Card, you must add Apple Card to Wallet on an iPhone
-                        or iPad with iOS 12.4 or later or iPadOS.
-                    </li>
-
-                    <li>
-                        Available for qualifying applicants in the United States.
-                    </li>
-
-                    <li>
-                        Apple Card is issued by Goldman Sachs Bank USA, Salt Lake City Branch.
-                    </li>
-                    <li>
-                        Apple TV+ is $4.99/month after free trial. One subscription per Family Sharing group. Offer good
-                        for 3 months after eligible device activation. Plan automatically renews until cancelled.
-                        Restrictions and other terms apply.
-                    </li>
                 </ul>
-            </div>
+                
 
-        </div>
-        </div>
-        <hr style="width: 70%;">
-        <div class="footer-container">
-            <div class="footer-list">
-                <h3>Shop and Learn</h3>
-                <p><a href="https://www.apple.com/mac">Mac</a></p>
-                <p><a href="https://www.apple.com/ipad">iPad</a></p>
-                <p><a href="https://www.apple.com/iphone">iPhone</a></p>
-                <p><a href="https://www.apple.com/watch">Watch</a></p>
-                <p><a href="https://www.apple.com/tv">TV</a></p>
-                <p><a href="https://www.apple.com/music">Music</a></p>
-                <p><a href="https://www.apple.com/airpods">AirPods</a></p>
-                <p><a href="https://www.apple.com/homepod">HomePod</a></p>
-                <p><a href="https://www.apple.com/ipad-touch">iPod touch</a></p>
-                <p><a href="https://www.apple.com/shop/accessories/all">Accessories</a></p>
-                <p><a href="https://www.apple.com/shop/gift-cards">Gift Cards</a></p>
             </div>
-            <div class="footer-list">
-                <h3>Services</h3>
-                <p><a href="https://www.apple.com/apple-music">Apple Music</a></p>
-                <p><a href="https://www.apple.com/apple-tv-plus">Apple TV+</a></p>
-                <p><a href="https://www.apple.com/apple-fitnes-plus">Apple Fitness+</a></p>
-                <p><a href="https://www.apple.com/apple-news">Apple News+</a></p>
-                <p><a href="https://www.apple.com/apple-arcade">Apple Arcade</a></p>
-                <p><a href="https://www.apple.com/icloud">iCloud</a></p>
-                <p><a href="https://www.apple.com/apple-one">Apple One</a></p>
-                <p><a href="https://www.apple.com/apple-card">Apple Card</a></p>
-                <p><a href="https://www.apple.com/apple-books">Apple Books</a></p>
-                <p><a href="https://www.apple.com/app-store">App Store</a></p>
-            </div>
-            <div class="footer-list">
-                <h3>Apple Store</h3>
-                <p><a href="https://www.apple.com/retail">Find a Store</a></p>
-                <p><a href="https://www.apple.com/shop">Shop Online</a></p>
-                <p><a href="https://www.apple.com/retail/geniusbar">Genius Bar</a></p>
-                <p><a href="https://www.apple.com/today">Today at Apple</a></p>
-                <p><a href="https://www.apple.com/today/camp">Apple Camp</a></p>
-                <p><a href="https://apps.apple.com/app/apple-store/id375380948">Apple Store App</a></p>
-                <p><a href="https://www.apple.com/shop/refurbished">Refurbished and Clearance</a></p>
-                <p><a href="https://www.apple.com/shop/browse/financing">Financing</a></p>
-                <p><a href="https://www.apple.com/shop/trade-in">Apple Trade In</a></p>
-                <p><a
-                        href="https://secure4.store.apple.com/shop/signIn/orders?r=SCKFUHKXACXX7DYHYT9JT7JJTAPAXHFKH&s=aHR0cHM6Ly9zZWN1cmU0LnN0b3JlLmFwcGxlLmNvbS9zaG9wL29yZGVyL2xpc3R8MWFvc2MyMzE1ZDYzNTE4MGIwZTg4MWE3YzIwOWJjMTVkMjNlMzI4ZTBkN2Y">Order
-                        Status</a></p>
-                <p><a href="https://www.apple.com/shop/help">Shopping Help</a></p>
-            </div>
-            <!-- <div class="footer-copyright">
-            <img class="logo-footer" src="img/apple-logo.png" alt="footer logo">
-            <p class="txt-copy"><a target="_blank" href="https://www.apple.com/id/">appleindonesia</a> &copy; 2021</p>
-        </div> -->
-        </div>
-    </footer>
+            <i class="fa-solid fa-bars"  onclick="showMenu()"></i>
+        </nav>
+    </section>
 
 
-    <script src="js/script.js"></script>
+    <script>
+        var navlinks=document.getElementById("navlinks");
+        function showMenu(){
+            navlinks.style.right="0";
+        }
+        function hideMenu(){
+            navlinks.style.right="-250px";
+        }
+    </script>
 </body>
 
 </html>

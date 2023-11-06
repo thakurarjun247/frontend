@@ -49,7 +49,7 @@ nav {
     color: white;
     /* background-color: blue; */
     text-decoration: none;
-    font-size: 13px;
+    font-size: 12px;
     /* font-family: Arial, Helvetica, sans-serif; */
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -96,7 +96,11 @@ nav img {
 }
 
 /* hide the small screen nav open close icons in full screen mode */
-nav .fa-xmark, nav .fa-bars {
+nav .fa-xmark {
+    display: none;
+}
+
+nav .fa-bars {
     display: none;
 }
 
@@ -105,12 +109,13 @@ nav .fa-xmark, nav .fa-bars {
     .top-nav-bar {
         position: absolute;
         background: black;
-        height: auto;
+        height: 100vh;
         width: 50%;
         top: 0;
-        right: 0;
+        right: -250px;
         text-align: left;
         z-index: 2;
+        transition: 1s;
     }
 
     .top-nav-bar ul li {
@@ -118,9 +123,15 @@ nav .fa-xmark, nav .fa-bars {
         display: block;
 
     }
-    nav .fa-xmark, nav .fa-bars {
-        display: block;
+    nav .fa-xmark {
+        display:block;
         color: red;
+        cursor: pointer;
     }
     
+    nav .fa-bars {
+        display: block;
+        color:red;
+        cursor: pointer;
+    }
 }
