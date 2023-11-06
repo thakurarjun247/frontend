@@ -35,10 +35,10 @@
 }
 
 .flex-item {
-    width: 95%;
+    width: 85%;
     background-color: black ;
-    color: rgb(120, 120, 6);
-    margin: 5px  5px 0px 5px;
+    color: rgb(221, 221, 4);
+    margin: 10px  10px 0px 10px;
     padding: 20px;
  
     border-radius: 15px; /* Adding curved edges */
@@ -50,9 +50,12 @@
 .flex-item:hover {
     /* background-color: lightgrey; */
     /* border: 1px solid #000; */
-    transform: scale(1.008); /* Zoom by 1% on hover */
-
-    
-
-    
+    transform: scale(1.01); /* Zoom by 1% on hover */ 
 } 
+
+.flex-item img {
+    max-width: 100%;
+    display: block;
+    margin: 10px auto; /* Center the image horizontally */
+}
+
