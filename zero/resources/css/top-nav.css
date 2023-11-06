@@ -49,7 +49,7 @@ nav {
     color: white;
     /* background-color: blue; */
     text-decoration: none;
-    font-size: 12px;
+    font-size: 13px;
     /* font-family: Arial, Helvetica, sans-serif; */
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -96,11 +96,7 @@ nav img {
 }
 
 /* hide the small screen nav open close icons in full screen mode */
-nav .fa-xmark {
-    display: none;
-}
-
-nav .fa-bars {
+nav .fa-xmark, nav .fa-bars {
     display: none;
 }
 
@@ -122,13 +118,9 @@ nav .fa-bars {
         display: block;
 
     }
-    nav .fa-xmark {
-        display:block;
+    nav .fa-xmark, nav .fa-bars {
+        display: block;
         color: red;
     }
     
-    nav .fa-bars {
-        display: block;
-        color:red;
-    }
 }
