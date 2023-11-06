@@ -123,15 +123,9 @@ nav .fa-bars {
         display: block;
 
     }
-    nav .fa-xmark {
-        display:block;
-        color: red;
-        cursor: pointer;
-    }
-    
-    nav .fa-bars {
+    nav .fa-xmark , nav .fa-bars {
         display: block;
-        color:red;
+        color: white;
         cursor: pointer;
     }
 }
