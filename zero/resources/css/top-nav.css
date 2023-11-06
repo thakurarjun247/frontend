@@ -11,22 +11,23 @@ nav {
     /* arg controls the height bar */
     /* padding: 1% 6%;: This sets padding for the nav element. It applies 1% of the width of the parent container to the top and bottom, and 6% of the width to the left and right. The percentage-based padding can make the navigation bar responsive, adapting to different screen sizes. */
 
-    height: 1px;
+    height: 9px;
     /* height: 1px;: This sets the height of the nav element to 1 pixel. This would typically make the navigation bar extremely thin, almost invisible. In most cases, you'd want to set the height to a more substantial value to create a visible navigation bar. */
     /* justify-content: space-around; */
     justify-content: space-between;
     align-items: center;
     background-color: black;
-    font-size: 12px;
+    font-size: 18px;
+    
 }
 
 /*settings for the container that contains all the list items*/
 .top-nav-bar {
-    flex: content;
+    flex:content;
 
-    text-align: center;
-    height: 20px;
-    align-items: left;
+    text-align: right;
+    height: 30px;
+    align-items: right;
     /* background-color: white;  */
 }
 
@@ -48,7 +49,8 @@ nav {
     color: white;
     /* background-color: blue; */
     text-decoration: none;
-    font-size: 13;
+    font-size: 15px;
+    /* font-family: Arial, Helvetica, sans-serif; */
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -88,13 +90,23 @@ nav {
 .tech-pro-school{
     color: orange;
     text-decoration: none;
-       text-decoration: none;
-       font-size: 20;
+   
        font-weight: bolder;
        font-family: Arial, Helvetica, sans-serif;
+       height: auto;
+       text-align: right;
+       align-items: center;
+       margin: 0px;
 
 }
-.tech-pro-school img{
-    width: 11px;
+nav img{
+    width: 25px;
     height: auto;
+    margin:10px;
+    padding: 5px;
+    padding-left: 0px;
+    /* margin-right: 10px; */
+    
+    
+    
 }
