@@ -1,9 +1,8 @@
-var navLinks=document.getElementById("navLinks");
-function showMenu(){
-    navLinks.style.right="0";
 
+var navlinks=document.getElementById("navlinks");
+function showMenu(){
+    navlinks.style.right="0";
 }
 function hideMenu(){
-    navLinks.style.right="200px";   
-
+    navlinks.style.right="-250px";
 }
