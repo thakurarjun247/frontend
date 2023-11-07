@@ -89,6 +89,14 @@ body {
     .flex-container {
         flex-direction: column;
     }
+    .flex-item {
+     
+      min-width: 100px;
+      min-height: auto;
+      
+      width: auto;
+      
+  }
 }
 
 
