@@ -22,9 +22,10 @@ body {
 
 
 .menu {
-    width: 25%;
+    width: 20%;
     float: left;
-    padding: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     border: 1px solid black;
     
     background-color: #5d5959;
@@ -32,11 +33,17 @@ body {
     
     text-align: left;
     float: left;
-    overflow: scroll;
-
+    overflow:scroll;
+    
 }
 .menu ul {
+  margin-top: 0px;
     list-style-type: none;
+    float:center;
+    padding-left: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    
   }
   .menu li {
     /* Set the default style of the menu items */
@@ -45,6 +52,7 @@ body {
     padding: 10px;
     border: 1px solid #ccc;
     display: block;
+    cursor: pointer;
   }
   
   .menu li:hover {
@@ -55,7 +63,7 @@ body {
   }
 
 .main {
-    width: 75%;
+    width: 80%;
     float: left;
     padding: 15px;
     border: 1px solid black;
