@@ -18,7 +18,50 @@
     </title>
 
     <style>
-      
+      body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .section {
+            width: 85%;
+            background-color: white;
+            margin: 1em auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .flex-item {
+            width: 46%; /* 2 columns on desktop */
+            margin: 1%;
+            background-color: #f5f5f5;
+            padding: 10px;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        @media (max-width: 768px) {
+            .flex-item {
+                width: 100%; /* 1 column on mobile */
+                margin: 1% 0;
+            }
+            
+            .flex-container {
+                flex-direction: column; /* Display items in a single column on mobile */
+            }
+        }
     </style>
 
 </head>
@@ -43,7 +86,7 @@
                     <li><a href=""> Master FAANG
                             Interviews</a></li>
 
-                    <li><a href="index.html">Corporate Technical
+                    <li><a href="corporate-technical-trainings/customized-onsite-and-online-learning-experience.html">Corporate Technical
                             Trainings</a></li>
                     <li><a href="index.html">Courses</a>
                     </li>
@@ -80,16 +123,7 @@
             <img src="resources/images/corporate-tech-training.png" alt="Image 2">
         </div>
     </div>
-    <div class="flex-item">
-        <div class="item-content">
-            <i class="fa-solid fa-envelope"></i>
-            <i class="fa-solid fa-phone"></i>
-            <i class="fa-brands fa-square-whatsapp fa-lg" style="color: #84e26a;"></i>            <i class="fa fa-whatsapp" aria-hidden="true"></i> +919340158116
-            <i class="fa-duotone fa-phone-volume"></i>
-            <i class="fa-brands fa-square-whatsapp fa-xl" style="color: #84e26a;">imxl</i>            <i class="fa fa-whatsapp" aria-hidden="true"></i> +919340158116
-            <i class="fa-light fa-phone fa-xl" style="color: #51c431;"></i>
-        </div>
-    </div>
+   
 </section>
 
 
