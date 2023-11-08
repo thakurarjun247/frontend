@@ -10,3 +10,4 @@ read commitMessage
 git commit -m "$commitMessage"
 echo '\n\ngit push...'
 git push
+echo '\n\n'
