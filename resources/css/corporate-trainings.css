@@ -46,9 +46,9 @@ body {
   margin: 10px;
   /* flex-shrink: 0; */
 
-  min-width: 300px;
+  max-width: 300px;
   min-height: 200px;
-  width: 20%;
+  
   /* flex: 1 1 0; */
 
 }
@@ -64,7 +64,7 @@ body {
   /* flex-shrink: 0; */
 
   min-width: 300px;
-  min-height: 200px;
+  height: max-content;
   width: 20%;
   /* flex: 1 1 0; */
 
@@ -110,9 +110,9 @@ body {
   .flex-item {
 
     min-width: 100px;
-    min-height: auto;
+    height: max-content;
 
-    width: auto;
+ 
 
   }
   .fa-star-half-stroke{
