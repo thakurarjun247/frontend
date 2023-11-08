@@ -137,6 +137,14 @@ body {
 
 }
 
+/* hide the small screen nav open close icons in full screen mode */
+.fa-circle-chevron-right {
+  display: none;
+}
+.fa-circle-chevron-left{
+  display: none;
+}
+
 
 @media (max-width: 768px) {
   .flex-container {
@@ -151,6 +159,16 @@ body {
     width: auto;
 
   }
-
+  .fa-circle-chevron-left{
+    display: block;
+    padding: 0px;
+    margin: 0px;
+  }
+  .fa-circle-chevron-right{
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    
+  }
 
 }
