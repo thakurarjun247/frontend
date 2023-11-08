@@ -3,27 +3,57 @@
 
 <head>
     <link rel="stylesheet" href="../resources/css/corporate-trainings.css">
-    <script src="https://kit.fontawesome.com/a4baa87545.js" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"></script>
+
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../resources/css/index.css">
+    <link rel="stylesheet" href="../resources/css/top-nav.css">
+    <link rel="stylesheet" href="../resources/css/index-body.css">
+
+
+
 
     <title>Java Corporate Training</title>
 </head>
 
 <body>
-    <!-- <div class="header">
-        <h1>Chania</h1>
-    </div> -->
+    <section>
+        <nav>
+            <!-- <div class="logo"><img src="resources/images/apple-logo.png" alt=""></div> -->
+            <a class="tech-pro-school" href="index.html">TechProSchool</a>
 
-    <div class="menu">
-        <ul>
-            <li><a href="data-structures-and-algorithms-dsa.html"></a>DSA</li>
-            <li>The City</li>
-            <li>The Island</li>
-            <li>The Food</li>
-        </ul>
-    </div>
+            <div class="top-nav-bar" id="navlinks">
+ 
+                <!-- <i class="fa-regular fa-rectangle-xmark " style="color: #f90606;" ></i> -->
+                <i class="fa-solid fa-xmark  " onclick="hideMenu()"  ></i>
+
+                <ul>
+                    <!-- uncomment below once logo is ready -->
+                    <!-- <li><a class="tech-pro-school" href="index.html" ><img src="resources/images/apple-logo.png" alt="">TechProSchool</a></li> -->
+                    <!-- <li><a class="tech-pro-school" href="index.html" >TechProSchool</a></li> -->
+
+                    <li><a href=""> Master FAANG
+                            Interviews</a></li>
+
+                    <li><a href="corporate-technical-trainings/customized-onsite-and-online-learning-experience.html">Corporate Technical
+                            Trainings</a></li>
+                    <li><a href="index.html">Courses</a>
+                    </li>
+                    <li><a href="index.html">About Us</a></li>
+                    <li><a href="index.html">Contact Us</a></li>
+                    <li><a href="index.html">Login</a>
+                    </li>
+
+                </ul>
+                
+
+            </div>
+            <i class="fa-solid fa-bars "  onclick="showMenu()"></i>
+        </nav>
+    </section>
+
+
+
 
     <div class="main">
         <h1>
@@ -230,6 +260,9 @@
 
         </div>
     </div>
+    <script src="../resources/js/top-nav.js"></script>
+    <script src="https://kit.fontawesome.com/a4baa87545.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"></script>
 </body>
 
 </html>
