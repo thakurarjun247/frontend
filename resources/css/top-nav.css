@@ -50,8 +50,7 @@ nav {
     /* background-color: blue; */
     text-decoration: none;
     font-size: 13px;
-    /* font-family: Arial, Helvetica, sans-serif; */
-    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .top-nav-bar ul li a:hover {
@@ -74,7 +73,6 @@ nav {
     text-decoration: none;
     font-size: 18;
     font-weight: bolder;
-    font-family: Arial, Helvetica, sans-serif;
     height: auto;
     text-align: right;
     align-items: center;
@@ -166,8 +164,7 @@ nav .fa-bars {
         /* color: white;
         text-decoration: none; */
         font-size: 13px;
-        /* font-family: Arial, Helvetica, sans-serif; */
-        font-family: Arial, Helvetica, sans-serif;
+    
     }
 
     .tech-pro-school {
@@ -175,7 +172,6 @@ nav .fa-bars {
         text-decoration: none;
      
         font-weight: bolder;
-        font-family: Arial, Helvetica, sans-serif;
         height: auto;
         text-align: right;
         align-items: center;
