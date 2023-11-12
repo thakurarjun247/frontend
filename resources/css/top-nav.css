@@ -116,6 +116,8 @@ nav .fa-bars {
         font-size: 18px;
     
     }
+    
+    
     .top-nav-bar {
         position: absolute;
         background: black;
@@ -137,7 +139,15 @@ nav .fa-bars {
 
         display: block;
         font-size: 13;
-        border: solid 1px grey;
+        border: solid .5px grey;
+
+    }
+    .top-nav-bar ul li:hover {
+
+        display: block;
+        font-size: 13;
+        border: solid .5px grey;
+        color: orange;
 
     }
     nav .fa-xmark , nav .fa-bars {
@@ -150,6 +160,8 @@ nav .fa-bars {
     nav .fa-xmark {
         padding: 5px;
         margin-left:10px;
+        margin-top: 9px;
+        margin-bottom: 9px;
   
     }
     nav .fa-bars {
@@ -159,12 +171,21 @@ nav .fa-bars {
     }
    
     .top-nav-bar ul li a {
-        /* color: white;
-        text-decoration: none; */
+        color: white;
+        text-decoration: none;
         font-size: 13px;
     
     }
 
+    .top-nav-bar ul li a:hover {
+        /* color: white;*/
+        color: orange;
+        /* text-decoration: none; */
+        font-size: 13px;
+        border: 1px solid green;
+      
+    
+    }
     .tech-pro-school {
         color: orange;
         text-decoration: none;
