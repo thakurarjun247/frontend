@@ -120,15 +120,16 @@ nav .fa-bars {
         position: absolute;
         background: black;
         
-        /* height: 100vh; */
-        height: auto;
-        width: 50%;
+        height: 100vh;
+        /* height: auto; */
+        width: 80%;
         top: 0;
-        right: -250px;
+        right: -500px;
         text-align: left;
         z-index: 2;
         transition: .5s;
         padding-top: 1px;
+       
         
     }
 
@@ -168,7 +169,7 @@ nav .fa-bars {
         color: orange;
         text-decoration: none;
         font-weight: bolder;
-        font-size: 22px;
+        font-size: 19px;
         height: auto;
         text-align: right;
         align-items: center;
