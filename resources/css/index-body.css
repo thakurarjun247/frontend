@@ -12,10 +12,11 @@ body {
 }
 
 .main {
+  padding-top: 50px;
   width: 100%;
   float: left;
   padding: 15px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .flex-container {
