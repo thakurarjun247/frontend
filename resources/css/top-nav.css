@@ -46,9 +46,10 @@ nav {
 .top-nav-bar ul li {
     list-style: none;
     display: inline-block;
-    padding: 2.5px 12px;
+    padding: 2.5px 10px;
     position: relative;
-    margin-left: 0%;
+
+  
     /* background-color: red; */
 }
 
@@ -63,8 +64,9 @@ nav {
 
 .top-nav-bar ul li a:hover {
 
-    /* background-color: darkgrey; */
-    color: orange;
+    border-bottom: 1px solid white;
+
+    /* color: orange; */
 }
 
 /* logo image */
@@ -100,14 +102,21 @@ nav img {
 /* hide the small screen nav open close icons in full screen mode */
 nav .fa-xmark {
     display: none;
+
 }
 
 nav .fa-bars {
     display: none;
 }
+/* active tab behaviour animation */
+.top-nav-bar ul li.active a {
+   border-bottom: 1px solid white;
+
+  }
 
 /* responsive */
 @media(max-width:768px) {
+    
     nav {
         display: flex;
         padding: 6% 4.5%;
@@ -149,19 +158,13 @@ nav .fa-bars {
         border: solid .5px grey;
 
     }
-    .top-nav-bar ul li:hover {
 
-        display: block;
-        font-size: 13;
-        border: solid .5px grey;
-        color: orange;
-
-    }
     nav .fa-xmark , nav .fa-bars {
         display: block;
         color: white;
         cursor: pointer;
         padding-left: 15px;
+        color: red;
         
     }
     nav .fa-xmark {
@@ -184,15 +187,6 @@ nav .fa-bars {
     
     }
 
-    .top-nav-bar ul li a:hover {
-        /* color: white;*/
-        color: orange;
-        /* text-decoration: none; */
-        font-size: 13px;
-        border: 1px solid green;
-      
-    
-    }
     .tech-pro-school {
         color: orange;
         text-decoration: none;
