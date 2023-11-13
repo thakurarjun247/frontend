@@ -1,0 +1,52 @@
+# Query: TechProSchool
+
+34 results - 8 files
+
+about-us.html:
+   39:                     <!-- <li><a class="tech-pro-school" href="index.html" ><img src="resources/images/apple-logo.png" alt="">Tech Pro School</a></li> -->
+   40:                     <!-- <li><a class="tech-pro-school" href="index.html" >Tech Pro School</a></li> -->
+   66:         <h1> About Tech Pro School</h1>
+   74:         Arjun Thakur is the founder and chief technical trainer at Tech Pro School. Arjun has over 14 years of experience
+   81:         <h1> About Tech Pro School</h1>
+  123:         <p><a href="mailto:arjun@techproschool.com" style="text-decoration: none;"><i class="fa-solid fa-envelope"
+  124:                     style="color: #20adf4;"></i> arjun@techproschool.com</a></p>
+  131:         <p><a href="https://www.youtube.com/@Tech Pro School" style="text-decoration: none;"><i
+
+contact-us.html:
+  19:     <title>Contact Tech Pro School | Corporate Technical Trainings | Crack FAANG Interviews | Video Tutorials | Arjun
+  31:             <a class="tech-pro-school" href="index.html">Tech Pro School</a>
+  40:                     <!-- <li><a class="tech-pro-school" href="index.html" ><img src="resources/images/apple-logo.png" alt="">Tech Pro School</a></li> -->
+  41:                     <!-- <li><a class="tech-pro-school" href="index.html" >Tech Pro School</a></li> -->
+  74: <p><a href="mailto:arjun@techproschool.com" style="text-decoration: none;"><i class="fa-solid fa-envelope" style="color: #20adf4;"></i> arjun@techproschool.com</a></p>
+  78: <p><a href="https://www.youtube.com/@Tech Pro School" style="text-decoration: none;"><i class="fa-brands fa-youtube " style="color: red;"></i> YouTube Channel</a></p>
+
+corporate-technical-training.html:
+  27:             <a class="tech-pro-school" href="index.html">Tech Pro School</a>
+  36:                     <!-- <li><a class="tech-pro-school" href="index.html" ><img src="resources/images/apple-logo.png" alt="">Tech Pro School</a></li> -->
+  37:                     <!-- <li><a class="tech-pro-school" href="index.html" >Tech Pro School</a></li> -->
+
+courses.html:
+  11:     <title>Courses by Tech Pro School - Coming Soon</title>
+
+icons.html:
+  21:     <title>Tech Pro School | Corporate Technical Trainings | Crack FAANG Interviews | Video Tutorials | Arjun Thakur
+
+index.html:
+  21:     <title>Tech Pro School | Corporate Technical Trainings | Crack FAANG Interviews | Video Tutorials | Arjun Thakur
+  42:                 <!-- <li><a class="tech-pro-school" href="index.html" ><img src="resources/images/apple-logo.png" alt="">Tech Pro School</a></li> -->
+  43:                 <!-- <li><a class="tech-pro-school" href="index.html" >Tech Pro School</a></li> -->
+  72:         <p><i class="fa-solid fa-envelope" style="color: #20adf4;"></i> arjun@techproschool.com</p>
+
+learn-to-crack-tech-interviews.html:
+  21:     <title>Tech Pro School | Corporate Technical Trainings | Crack FAANG Interviews | Video Tutorials | Arjun Thakur
+  34:         <a class="tech-pro-school" href="index.html">Tech Pro School</a>
+  43:                 <!-- <li><a class="tech-pro-school" href="index.html" ><img src="resources/images/apple-logo.png" alt="">Tech Pro School</a></li> -->
+  44:                 <!-- <li><a class="tech-pro-school" href="index.html" >Tech Pro School</a></li> -->
+
+corporate-technical-trainings/data-structures-and-algorithms-dsa.html:
+  21:             <a class="tech-pro-school" href="../index.html">Tech Pro School</a>
+  30:                     <!-- <li><a class="tech-pro-school" href="index.html" ><img src="resources/images/apple-logo.png" alt="">Tech Pro School</a></li> -->
+  31:                     <!-- <li><a class="tech-pro-school" href="index.html" >Tech Pro School</a></li> -->
+  69:         <p><i class="fa-solid fa-envelope" style="color: #20adf4;"></i> arjun@techproschool.com</p>
+  86:             <h3>About Arjun Thakur, Tech Pro School.com </h3>
+  87:             <p>Tech Pro School.com is founded by Arjun, a passionate advocate of software development and technical

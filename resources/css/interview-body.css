@@ -102,21 +102,13 @@
   }
   
   @media (max-width: 768px) {
-    /* .flex-container {
-      flex-direction: column;
-    } */
+
     .flex-container {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-around;
    
     }
-    /* .flex-container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-      flex-direction: column;
-    } */
 
   }
   
