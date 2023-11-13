@@ -64,9 +64,8 @@ nav {
 
 .top-nav-bar ul li a:hover {
 
-    border-bottom: 1px solid white;
+    /* border-bottom: 1px dotted white; */
 
-    /* color: orange; */
 }
 
 /* logo image */
@@ -140,7 +139,7 @@ nav .fa-bars {
         
         height: 100vh;
         /* height: auto; */
-        width: 70%;
+        width: 60%;
         top: 0;
         right: -500px;
         text-align: left;
