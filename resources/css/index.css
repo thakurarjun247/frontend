@@ -1,8 +1,10 @@
-/* apply to all the html elements*/
+/* generic css, applied to all the html elements*/
+
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+ font-family: 'Poppins', sans-serif;
+
 }
 h1{
     font-size: 20px;
@@ -14,6 +16,6 @@ h2{
    
 }
 h3{
-    16px;
+    font-size: 16px;
     text-align: center;
 }
