@@ -136,10 +136,10 @@ nav .fa-bars {
     .top-nav-bar {
         position: absolute;
         background: black;
-        
-        height: 100vh;
+        margin-top: 30px;
+        height: auto;
         /* height: auto; */
-        width: 60%;
+        width: 100%;
         top: 0;
         right: -500px;
         text-align: left;
@@ -171,6 +171,7 @@ nav .fa-bars {
         margin-left:10px;
         margin-top: 7.75px;
         margin-bottom: 7.75px;
+       margin-left: 90.5%;
   
     }
     nav .fa-bars {
