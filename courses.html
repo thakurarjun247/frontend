@@ -1,23 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head >
-    <meta charset="UTF-8">
-       <!-- poppins font -->
-       <link rel="preconnect" href="https://fonts.googleapis.com">
-       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-       <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-   
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Courses by TechProSchool - Coming Soon</title>
-    <script defer>
-        // Redirect to the previous page after a delay (e.g., 5 seconds)
-        setTimeout(function () {
-            window.history.back();
-        }, 3000); // 5000 milliseconds = 5 seconds
-    </script>
+    <link rel="stylesheet" href="resources/css/corporate-trainings.css">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="resources/css/index.css">
+    <link rel="stylesheet" href="resources/css/top-nav.css">
+    <link rel="stylesheet" href="resources/css/index-body.css">
+   <!-- poppins font -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <title>Corporate Technical Training</title>
 </head>
-<body style="font-family: 'Poppins', sans-serif; text-align: center;">
-    <h3>Our courses are coming soon!</h3>
-    <p>Redirecting you back to the previous page in 1 second...</p>
+
+<body >
+    <section>
+        <nav>
+            <!-- <div class="logo"><img src="resources/images/apple-logo.png" alt=""></div> -->
+            <a class="tech-pro-school" href="index.html">TechProSchool</a>
+
+            <div class="top-nav-bar" id="navlinks">
+
+                <!-- <i class="fa-regular fa-rectangle-xmark " style="color: #f90606;" ></i> -->
+                <i class="fa-solid fa-xmark  " onclick="hideMenu()"></i>
+
+                <ul>
+                    <!-- uncomment below once logo is ready -->
+                    <!-- <li><a class="tech-pro-school" href="index.html" ><img src="resources/images/apple-logo.png" alt="">TechProSchool</a></li> -->
+                    <!-- <li><a class="tech-pro-school" href="index.html" >TechProSchool</a></li> -->
+
+                    <li><a href="learn-to-crack-tech-interviews.html"> Crack Tech
+                            Interviews</a></li>
+
+                    <li><a href="corporate-technical-training.html">Corporate
+                            Technical
+                            Trainings</a></li>
+                    <li><a href="courses.html">Courses</a>
+                    </li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                    </li>
+
+                </ul>
+
+
+            </div>
+            <i class="fa-solid fa-bars " onclick="showMenu()"></i>
+        </nav>
+    </section>
+    <br>
+    <div style="width: 90%; text-align: left; padding-left: 30px; padding-top: 20px;">
+        <h1>   <i class="fa-solid fa-person-chalkboard" style="color: green;"></i>    Meet Your trainer: Arjun Thakur</h1> 
+        <br>
+        <p><i class="fa-regular fa-circle-check " style="color: rgb(3, 192, 3)"></i>  Arjun Thakur is the founder and chief instructor at Tech Pro School, an EdTech company offering corporate technical training,
+            interview preparation services, AWS certification training, and courses on software engineering and computer science. </p><br>
+        
+        <p><i class="fa-regular fa-circle-check " style="color: rgb(3, 192, 3)"></i> Arjun has fourteen years of experience working for big tech companies like Amazon and startups across the globe, including India, the USA, and Southeast Asia.
+        </p><br>
+        <p><i class="fa-regular fa-circle-check " style="color: rgb(3, 192, 3)"></i> Arjun has been on the other side of the interview table and has interviewed hundreds of software engineers for big technology companies, including FAANG/MAANG.
+        </p><br>
+        <p><i class="fa-regular fa-circle-check " style="color: rgb(3, 192, 3)"></i>Arjun is a strong advocate of loosely coupled, highly scalable software systems, adhering to the best practices of software engineering.
+        </p><br>
+        <h2>Courses</h2>
+        <br>
+    </div>
+
+    <div>
+       
+    </div>
+    
+    <div class="flex-container">
+
+        <!-- Group: Backend Development -->
+        <div class="flex-item">
+            <h2>SOLID Principles</h2>
+            <h3>Beginner to Pro!</h3>
+            <p>Best practices for designing and writing clean and maintainable object oriented code.</p>
+            <p><a href="courses/master-solid-design-principles-with-theory-and-code-examples.html">Learn Now for Free > </a></p>
+        </div>
+  
+      
+
+
+
+    </div> 
+
+<br>
+    <script src="resources/js/top-nav.js"></script>
+    <script src="https://kit.fontawesome.com/a4baa87545.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"></script>
 </body>
+
 </html>
