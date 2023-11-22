@@ -154,7 +154,7 @@ nav .fa-bars {
     .top-nav-bar ul li {
 
         display: block;
-        font-size: 13;
+        font-size: 22;
         border: solid .5px grey;
 
     }
@@ -186,7 +186,7 @@ nav .fa-bars {
     .top-nav-bar ul li a {
         color: white;
         text-decoration: none;
-        font-size: 13px;
+        font-size: 18px;
     
     }
 
