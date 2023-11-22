@@ -58,7 +58,7 @@ nav {
     color: white;
     /* background-color: blue; */
     text-decoration: none;
-    font-size: 18px;
+    font-size: 14px;
 
 }
 
@@ -80,7 +80,7 @@ nav {
 .tech-pro-school {
     color: orange;
     text-decoration: none;
-    font-size: 30;
+    font-size: 23px;
     font-weight: bolder;
     height: auto;
     text-align: right;
@@ -194,7 +194,7 @@ nav .fa-bars {
         color: orange;
         text-decoration: none;
         font-weight: bolder;
-        font-size: 24px;
+        font-size: 20px; 
         height: auto;
         text-align: right;
         align-items: center;
