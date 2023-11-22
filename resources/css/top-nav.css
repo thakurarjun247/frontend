@@ -12,10 +12,11 @@ nav {
     display: flex;
     z-index: 1000;
     /* padding among list items */
-    padding: 2.0% 2%;
+    padding: 2.0% 3%;
+    /* arg controls the height bar */
     /* padding: 1% 6%;: This sets padding for the nav element. It applies 1% of the width of the parent container to the top and bottom, and 6% of the width to the left and right. The percentage-based padding can make the navigation bar responsive, adapting to different screen sizes. */
 
-    height: 28px;
+    height: 9px;
     /* height: 1px;: This sets the height of the nav element to 1 pixel. This would typically make the navigation bar extremely thin, almost invisible. In most cases, you'd want to set the height to a more substantial value to create a visible navigation bar. */
     /* justify-content: space-around; */
     justify-content: space-between;
