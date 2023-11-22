@@ -90,7 +90,7 @@
 .sidenav {
     padding-right: 5px;
     margin-top: 10px;
-    display: none;
+    display: block;
     height: 100%;
     width: auto;
     position: fixed;
@@ -173,9 +173,9 @@
     .sidenav {
       padding-right: 5px;
       margin-top: 10px;
-      display: none;
+      display: block;
       height: 100%;
-      width: 80%;
+      width: 60%;
       position: fixed;
       z-index: 10;
       top: 0;
