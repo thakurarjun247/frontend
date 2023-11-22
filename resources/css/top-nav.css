@@ -21,7 +21,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     background-color: black;
-    font-size: 22px;
+    font-size: 30px;
 
 }
 
@@ -58,7 +58,7 @@ nav {
     color: white;
     /* background-color: blue; */
     text-decoration: none;
-    font-size: 13px;
+    font-size: 18px;
 
 }
 
@@ -194,7 +194,7 @@ nav .fa-bars {
         color: orange;
         text-decoration: none;
         font-weight: bolder;
-        font-size: 19px;
+        font-size: 24px;
         height: auto;
         text-align: right;
         align-items: center;
