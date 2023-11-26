@@ -32,3 +32,26 @@ p, div {
     }
 }
 
+button {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    height: fit-content;
+    /* font-size: 16px; */
+
+    
+
+
+2px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: darkgreen;
+  }
+
