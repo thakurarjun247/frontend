@@ -15,8 +15,8 @@ body {
   padding-top: 50px;
   width: 100%;
   float: left;
-  padding: 15px;
-  /* border: 1px solid black; */
+  padding: 5px;
+  /*  todo : change the above padding it works across the site. */
 }
 
 .flex-container {
@@ -29,33 +29,35 @@ body {
 
 
 .flex-item {
-  border-radius: 10px;
+  border-radius: 0px;
   background-color: #f5f5f5;
-  border: 1px solid #ddd;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  /* border: 1px solid grey; */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
 
-  padding: 10px;
-  margin: 10px;
-  /* flex-shrink: 0; */
+  padding: 12px;
 
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 1px;
+  margin-right: 1px;
   width: 100%;
-  /* flex: 1 1 0; */
 
 }
 
 .flex-item:hover {
 
+  border-radius: 0px;
   background-color: #f5f5f5;
-  border: 1px solid grey;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  /* border: 1px solid grey; */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
 
-  padding: 10px;
-  margin: 10px;
-  /* flex-shrink: 0; */
+  padding: 12px;
 
- 
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 1px;
+  margin-right: 1px;
   width: 100%;
-  /* flex: 1 1 0; */
 
 }
 
